@@ -87,25 +87,25 @@ npm install @faker-js/faker --save-dev
 
 Executar testes:
 
-Abrir Cypress:
+- Abrir Cypress:
 npx cypress open
 
-Executar todos os testes:
+- Executar todos os testes:
 npx cypress run
 
-Executar somente testes API:
+- Executar somente testes API:
 npx cypress run --spec "cypress/e2e/api/**/*"
 
-Executar somente testes UI:
+- Executar somente testes UI:
 npx cypress run --spec "cypress/e2e/ui/**/*"
 
-Configuração de variáveis:
+- Configuração de variáveis:
 cypress.env.json
 
-Padrões utilizados:
+- Padrões utilizados:
 BDD
 
-Os testes foram escritos utilizando:
+- Os testes foram escritos utilizando:
 Given
 When
 Then
