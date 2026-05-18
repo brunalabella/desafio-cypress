@@ -15,7 +15,9 @@ Tecnologias utilizadas:
 - Faker
 - Page Object Model (POM)
 
+
 Estrutura do projeto:
+```txt
 cypress
 │
 ├── e2e
@@ -39,7 +41,7 @@ cypress
 │
 ├── cypress.config.js
 └── cypress.env.json
-
+```
 
 Cenários automatizados:
 
