@@ -45,7 +45,7 @@ cypress
 
 Cenários automatizados:
 
-UI — Fluxo E-commerce:
+UI - Fluxo E-commerce:
 - Acessar site Automation Exercise
 - Realizar cadastro de usuário
 - Validar criação da conta
@@ -53,7 +53,7 @@ UI — Fluxo E-commerce:
 - Adicionar produto ao carrinho
 - Validar produto e preço no carrinho
 
-API — Criar usuário:
+API - Criar usuário:
 - Criar usuário via endpoint /api/createAccount
 - Validar status code
 - Validar mensagem de sucesso
@@ -78,10 +78,12 @@ Instalar dependências:
 npm install
 
 Dependências principais:
+```bash
 npm install cypress --save-dev
 npm install @badeball/cypress-cucumber-preprocessor --save-dev
 npm install @bahmutov/cypress-esbuild-preprocessor esbuild --save-dev
 npm install @faker-js/faker --save-dev
+```
 
 Executar testes:
 Abrir Cypress:
