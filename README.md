@@ -111,16 +111,20 @@ When
 Then
 Page Object Model (POM)
 
+```bash
 A camada de UI foi estruturada utilizando Page Objects para:
 reutilização
 manutenção
 legibilidade
 Faker
+```
 
+```bash
 Utilizado para geração dinâmica de:
 nome
 email
 senha
 endereço
+```
 telefone
 empresa
