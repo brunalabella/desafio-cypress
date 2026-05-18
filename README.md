@@ -86,6 +86,7 @@ npm install @faker-js/faker --save-dev
 ```
 
 Executar testes:
+
 Abrir Cypress:
 npx cypress open
 
