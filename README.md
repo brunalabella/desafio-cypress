@@ -125,6 +125,6 @@ nome
 email
 senha
 endereço
-```
 telefone
 empresa
+```
